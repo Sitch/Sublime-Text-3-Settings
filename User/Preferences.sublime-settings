@@ -1,0 +1,83 @@
+{
+	"binary_file_patterns":
+	[
+		"*.scssc"
+	],
+	"bold_folder_labels": false,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_line_ending": "unix",
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"Desktop.ini",
+		"*.pyc",
+		"._*",
+		"Thumbs.db",
+		".Spotlight-V100",
+		".Trashes",
+		"erl_crash.dump",
+		"*.sublime-project*",
+		"*.sublime-workspace*"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"tmp",
+		"coverage",
+		"log",
+		".sass-cache",
+		"node_modules",
+		".tmp",
+		"bower_components",
+		"node_modules",
+		"_build",
+		"deps",
+		"priv/static",
+		"test/support/fixtures"
+	],
+	"font_size": 10,
+	"goto_related_patterns_to_strip":
+	[
+		"^_",
+		"\\..+$",
+		"_test$",
+		"_view$",
+		"_$",
+		"_query$",
+		"_policy$",
+		"_projection$",
+		"_changeset$",
+		"_event$",
+		"_context$",
+		"_channel",
+		"_broker",
+		"_brokers",
+		"_lender",
+		"_lenders",
+		"_deal",
+		"_command$"
+	],
+	"rulers": [80],
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"parameters":
+	[
+		"--open-in-tab"
+	],
+	"remember_open_files": false,
+	"tab_size": 2,
+	"terminal": "iTerm.sh",
+	"theme": "Centurion.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~",
+	"word_wrap": false
+}
